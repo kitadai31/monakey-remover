@@ -1,8 +1,8 @@
 # MonakeyClearActivity.java
 ただのJavaのクラスファイル。
 
-自作のMonaKey削除用Activityを某アプリに追加し、鍵の自己削除を可能にする。(アクティビティとは、Androidにおける「画面」のこと)  
-注意：説明はまだ作りかけ WIP
+自作のMonaKey削除用Activityを某アプリに追加する。(アクティビティとは、Androidにおける「画面」のこと)  
+非rootでは外からアクセスすることができないのなら、内側からアクセスすればいいじゃない。
 
 ## 作成方法
 1. AndroidManifestを編集するために例のあれを使う (ここで-sオプションを付けるのが重要)
