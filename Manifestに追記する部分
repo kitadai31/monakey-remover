@@ -1,0 +1,9 @@
+AndroidManifestの最後から二行目の直前に追記
+        <activity android:name="com.kitadai31.MonakeyClearActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https" android:host="chmate.monakey.clear"/>
+            </intent-filter>
+        </activity>
