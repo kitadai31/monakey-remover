@@ -2,9 +2,11 @@
 Just a single java class.  
 自作のMonaKey削除用Activityを某アプリに追加する。(アクティビティとは、Androidにおける「画面」のこと)
 
+注意：説明はまだ作りかけ
+
 ## 作成方法
 1. AndroidManifestを編集するために apktool d -s hoge.apk をする (-sオプションが重要)
-1. binフォルダの中にある classes3.dex を配置 (これがコンパイルされた自作クラス本体。binはバイナリという意味。)
+1. binフォルダの中にある [classes3.dex](https://raw.githubusercontent.com/kitadai31/monakey-remover/main/bin/classes3.dex) を配置 (これがコンパイルされた自作クラス本体。binはバイナリという意味。)
 1. Manifest編集
 1. apktool b
 1. zipalignと署名
