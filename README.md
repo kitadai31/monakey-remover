@@ -19,9 +19,20 @@ AndroidManifestを編集するために皆さん"あること"をされると思
 幸いにもWindowsにはこれを解決する手段がある。Windowsのファイルシステムは意外とすごい。
 
 ## 組み込んだアクティビティの起動方法
-https://chmate.monakey.clear/ へのリンクを踏む
+アクティビティの名前は`com.kitadai31.MonakeyClearActivity`です。アクティビティの起動手段はお好きな方法で構いません。
 
-[このスレ](https://eagle.5ch.net/test/read.cgi/livejupiter/1655380588/)を★5とかに入れとくと便利かも  
+参考に、AndroidManifest.xmlに次の記述を追加すれば、https://chmate.monakey.clear/ へのリンクを踏むことで当プログラムを呼び出せるようになります。
+```xml
+        <activity android:name="com.kitadai31.MonakeyClearActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https" android:host="chmate.monakey.clear"/>
+            </intent-filter>
+        </activity>
+```
+この方法を使った場合、[このスレ](https://eagle.5ch.net/test/read.cgi/livejupiter/1655380588/)を★5とかに入れとくと便利でしょう  
 Android12だとアプリ情報から開くリンクを追加する必要があるかも
 
 ## その他
