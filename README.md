@@ -1,5 +1,6 @@
 (お知らせ)8/2 再公開しました  
-Android9以上をお使いの方 こんなのよりも[いいもの](https://egg.5ch.net/test/read.cgi/android/1655208810/504-n)あるかも
+Android9以上の方 こんなのよりもずっと[いいもの](https://egg.5ch.net/test/read.cgi/android/1655208810/504-n)あるかも
+
 # MonakeyClearActivity.java
 ただのJavaのクラスファイル。
 
@@ -45,6 +46,6 @@ Android開発は未経験なので、ソースなどにツッコミどころが�
 
 私のトリップ ◆1iIXcBIBf. ←何かあった時用
 
-運営よ、もし怒らせていたらすみません。でも[私の主張]https://github.com/kitadai31/monakey-remover/blob/main/myclaim.md)も聞いてください。
+運営よ、もし怒らせていたらすみません。でも[私の主張](https://github.com/kitadai31/monakey-remover/blob/main/myclaim.md)も聞いてください。
 
 ちなみにいくら鍵を消したところで、規制を受けている板に当該の回線や専ブラでの書き込みをすれば、また鍵が無効化されるだけです。なので規制の根本的な回避にはなりません。別ブラウザの併用は続ける必要があります。
