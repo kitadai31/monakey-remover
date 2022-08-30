@@ -1,5 +1,5 @@
 (お知らせ)8/2 再公開しました  
-Android9以上の方 こんなのよりもずっと[いいもの](https://egg.5ch.net/test/read.cgi/android/1655208810/504-n)あるかも
+Android9以上の方 こんなのよりもずっと[いいもの](https://egg.5ch.net/test/read.cgi/android/1655208810/504-506n)あるかも
 
 # monakey-remover (dex組込み版)
 中身は `MonakeyClearActivity.java` というただ1つのJavaクラスです。
