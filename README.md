@@ -1,7 +1,7 @@
 (お知らせ)8/2 再公開しました  
 Android9以上の方 こんなのよりもずっと[いいもの](https://egg.5ch.net/test/read.cgi/android/1655208810/504-506n)あるかも
 
-# monakey-remover (dex組込み版)
+# monakey-remover (Activity追加、dex組込み版)
 中身は `MonakeyClearActivity.java` というただ1つのJavaクラスです。
 
 これは某アプリに組み込むための、MonaKey(鍵)を削除する機能を持った自作のActivityです。(アクティビティとは、Androidにおける「画面」のこと)  
